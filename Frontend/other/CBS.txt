@@ -1,0 +1,90 @@
+FinanceApp
+├── App
+│   ├── Header
+│   │   ├── NavBar
+│   │   │   ├── NavItem
+│   │   │   └── UserMenu
+│   │   │   |---CurrencySelector
+│   │   ├─--------------------------------------------------------─ ThemeToggle 
+│   │   
+│   ├─-------------------------------------------------------------─ Sidebar
+│   │                                                               ├── MenuItem
+│   │                                                               └── NotificationBadge
+│   ├── MainContent
+│   │   ├── Dashboard
+│   │   │   ├── BalanceCard
+│   │   │   ├── BudgetOverview
+│   │   │   │   ├── BudgetItem
+│   │   │   │   └── BudgetProgress
+│   │   │   ├── RecentTransactions
+│   │   │   │   ├── TransactionRow
+│   │   │   │   └── TransactionFilter
+│   │   │   └── ChartsWidget
+│   │   ├── Accounts
+│   │   │   ├── AccountList
+│   │   │       ├── AccountCard
+│   │   │       |   |-TransactionForm
+│   │   │       |   
+│   │   │       └── AccountForm
+│   │   │   
+│   │   ├── Budgets
+│   │   │   ├── BudgetList
+│   │   │   │   ├── BudgetCard
+│   │   │   │   └── BudgetForm
+│   │   │   └── BudgetTracker
+│   │   ├── Investments
+│   │   │   ├── InvestmentList
+│   │   │   │   ├── InvestmentCard
+│   │   │   │   └── InvestmentForm
+│   │   │   └── InvestmentTracker
+│   │   ├── Debts
+│   │   │   ├── DebtList
+│   │   │   │   ├── DebtCard
+│   │   │   │   └── DebtForm
+│   │   │   └── DebtTracker
+│   │   ├── Goals
+│   │   │   ├── GoalList
+│   │   │   │   ├── GoalCard
+│   │   │   │   └── GoalForm
+│   │   │   └── GoalTracker
+│   │   ├── Notifications
+│   │   │   ├── NotificationList
+│   │   │       └── NotificationItem
+│   │   │   
+│   │   ├── Reports
+│   │   │   ├── ReportList
+│   │   │   │   ├── ReportCard
+│   │   │   │   └── ReportGenerator
+│   │   │   └── ReportChart
+│   │   ├── ScheduledTransactions
+│   │   │   ├── ScheduledTransactionList
+│   │   │   │   ├── ScheduledTransactionCard
+│   │   │   │   └── ScheduledTransactionForm
+│   │   └── Settings
+│   │       ├── UserProfile
+│   │       ├── SetupForm
+│   │       └── ErrorLogViewer (Admin-only)
+│   └── Footer
+├── Shared
+│   ├── AuthProvider
+│   ├── SupabaseProvider
+│   ├── ErrorBoundary
+│   ├── LoadingSpinner
+│   ├── Modal
+│   ├── CurrencyFormatter
+│   ├── DatePicker
+│   ├── CategorySelector
+│   └── MermaidDiagram
+└── Pages
+    ├── LoginPage
+    ├── RegisterPage
+    ├── DashboardPage
+    ├── AccountsPage
+    ├── BudgetsPage
+    ├── InvestmentsPage
+    ├── DebtsPage
+    ├── GoalsPage
+    ├── NotificationsPage
+    ├── ReportsPage
+    ├── ScheduledTransactionsPage
+    └── SettingsPage

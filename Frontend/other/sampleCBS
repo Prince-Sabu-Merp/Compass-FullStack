@@ -1,0 +1,61 @@
+src/
+├── assets/                # Images, icons, fonts, etc.
+│   └── styles/            # Global styling (optional)
+│       ├── global.css
+│       └── variables.css
+├── components/            # Reusable UI components
+│   ├── Header/
+│   │   ├── Logo.jsx
+│   │   ├── Logo.module.css
+│   │   ├── UserMenu.jsx
+│   │   ├── UserMenu.module.css
+│   │   ├── ProfileDropdown.jsx
+│   │   └── ProfileDropdown.module.css
+│   ├── Sidebar/
+│   │   ├── NavItem.jsx
+│   │   ├── NavItem.module.css
+│   │   ├── CollapseToggle.jsx
+│   │   └── CollapseToggle.module.css
+│   ├── Dashboard/
+│   │   ├── StatsCard.jsx
+│   │   ├── StatsCard.module.css
+│   │   ├── Chart.jsx
+│   │   ├── Chart.module.css
+│   │   ├── RecentActivity.jsx
+│   │   └── RecentActivity.module.css
+│   ├── Settings/
+│   │   ├── PreferencesForm.jsx
+│   │   ├── PreferencesForm.module.css
+│   │   ├── NotificationSettings.jsx
+│   │   └── NotificationSettings.module.css
+│   ├── Footer/
+│   │   ├── Footer.jsx
+│   │   └── Footer.module.css
+│   └── common/            # Shared small components like buttons
+│       ├── Button.jsx
+│       └── Button.module.css
+├── pages/                 # Top-level route pages
+│   ├── Dashboard.jsx
+│   ├── Dashboard.module.css
+│   ├── Settings.jsx
+│   ├── Settings.module.css
+│   └── NotFound.jsx
+│   └── NotFound.module.css
+├── layout/                # Layout wrappers like main layout, auth layout
+│   ├── MainLayout.jsx
+│   ├── MainLayout.module.css
+│   └── AuthLayout.jsx
+│   └── AuthLayout.module.css
+├── hooks/                 # Custom hooks (no CSS here)
+│   └── useAuth.js
+├── utils/                 # Utility functions (no CSS here)
+│   └── formatDate.js
+├── context/               # React context providers
+│   └── AuthContext.jsx
+├── services/              # API calls and services
+│   └── api.js
+├── App.jsx                # Root component
+├── App.module.css         # Optional global container styling
+├── main.jsx               # Entry point (for Vite) or index.jsx (for CRA)
+└── routes/                # Route definitions
+    └── AppRoutes.jsx
